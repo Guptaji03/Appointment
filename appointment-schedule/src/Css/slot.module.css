@@ -1,0 +1,85 @@
+
+.container{
+    
+    /* border: 1px solid; */
+    width: 50%;
+    margin: auto;
+    /* margin-top: 50px; */
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+}
+.main{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    align-items: center;
+}
+
+.slot_Card{
+display: grid;
+grid-template-columns: repeat(5,1fr);
+row-gap: 5px;
+border: 1px solid silver;
+padding: 10px;
+
+}
+.time{
+    display: flex;
+   border: 1px solid;
+   gap: 5px;
+   width: 90px; 
+   padding: 4px;
+  
+   align-items: center;
+   text-align: center;
+   border-radius: 5px;
+}
+
+.form{
+    width: 30%;
+    /* border: 1px solid; */
+    border-radius: 8px;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: x-large;
+    /* margin-top: 20px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.form input{
+   padding: 5px;
+    font-size: large;
+    
+    border: none;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #16566A;
+    cursor: pointer;
+    color: white;
+    float: right;
+    font-size: large;
+}
+.back{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #16566A;
+    cursor: pointer;
+    color: white;
+    float: left;
+    font-size: large;
+}
+.inset{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: inset rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

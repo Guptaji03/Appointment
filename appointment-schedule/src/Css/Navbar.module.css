@@ -1,0 +1,14 @@
+.navbar{
+background-color: #16566a81;
+height: fit-content;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 50px;
+padding: 0px 50px;
+}
+.navbar img{
+  /* margin-left: 100px; */
+    width: 120px;
+    height: 80px;
+}

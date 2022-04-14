@@ -1,0 +1,39 @@
+.clinic_card{
+    background-color: white;
+    width: 250px;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 10px;
+    word-break:normal;
+}
+.clinic_card img{
+    width: 100%;
+    height: 200px;
+    
+
+    border-radius: 5px 5px 0px 0px;
+}
+.clinic_card p{
+padding: 5px;
+}
+.address{
+    color: grey;
+}
+.clinic_card button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #16566A;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 5px;
+    font-size: large;
+   
+}
+.clinic_card:hover{
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}

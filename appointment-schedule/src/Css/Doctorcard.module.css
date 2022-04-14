@@ -1,0 +1,71 @@
+.image img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+.main{
+    display: flex;
+    width: fit-content;
+    border: 1px solid silver;
+    border-radius: 10px;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: space-between;
+    background-color: #F1F6F7;
+    width: 100px;
+    /* border: 1px solid; */
+}
+.name{
+    padding: 15px;
+    display: flex;
+    flex-direction: column; 
+    border: 1px solid silver;
+    word-break: keep-all;
+    width: 279px;
+}
+.line{
+    /* text-align: center; */
+    /* align-items: center; */
+    justify-content: center;
+    border-bottom: 1px solid silver;
+}
+.name p{
+  
+    display: flex;
+    text-align: center;
+    color: grey;
+    font-size: small;
+    gap: 10px;
+  align-items: center;
+}
+.appointment {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid; */
+}
+
+.first{
+    text-align: center;
+
+}
+.second{
+    text-align: center;
+}
+.second button{
+    margin-top: 10px;
+    /* width: 150px; */
+   
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #16566A;
+    cursor: pointer;
+    color: white;
+    /* font-size: lar; */
+}

@@ -1,0 +1,6 @@
+.doctors_main {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    gap: 30px;
+}
