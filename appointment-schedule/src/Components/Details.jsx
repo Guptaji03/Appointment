@@ -1,13 +1,13 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-// import { useNavigate } from 'react-router-dom';
+import url from "../connection";
 import style from "../Css/Details.module.css";
 const Details = () => {
   const { id } = useParams();
   const [slots, setSlots] = useState([]);
   useEffect(() => {
-    axios.get(`/slot?doctor=${id}`).then((data) => {
+    axios.get(`${url}/slot?doctor=${id}`).then((data) => {
       setSlots(data.data);
     });
   });

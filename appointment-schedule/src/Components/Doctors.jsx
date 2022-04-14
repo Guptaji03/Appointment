@@ -1,9 +1,9 @@
 import axios from "axios";
 import React, { useLayoutEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-// import style from "../Css/Doctor.module.css";
 import Doctorcard from "./Doctorcard";
 import style from "../Css/Doctors.module.css";
+import url from "../connection";
 
 const Doctors = () => {
   const { id } = useParams();
@@ -11,7 +11,7 @@ const Doctors = () => {
   const navigate = useNavigate();
 
   useLayoutEffect(() => {
-    axios.get(`/doctor?clinic=${id}`).then((data) => {
+    axios.get(`${url}/doctor?clinic=${id}`).then((data) => {
       setDoctors(data.data);
     });
   }, [id]);

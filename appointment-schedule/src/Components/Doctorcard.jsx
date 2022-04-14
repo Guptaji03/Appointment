@@ -13,7 +13,7 @@ const Doctorcard = ({ doctor }) => {
         <img src={doctor.image} alt="not found" />
         <h4>Fee:- Rs.{doctor.fee}</h4>
       </div>
-      
+
       <div className={style.name}>
         <div className={style.line}>
           <h3>Dr.{doctor.name}</h3>

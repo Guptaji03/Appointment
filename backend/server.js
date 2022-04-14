@@ -6,11 +6,11 @@ const clinicController = require("./Controllers/clinicController")
 const doctorController = require("./Controllers/doctorController")
 const slotController = require("./Controllers/slotController")
 
-dotenv.config({ path: "./.env" })
 const app = express()
 
-mongoose.connect(process.env.MONGODB_URI).then(() => console.log("mongodb connected"))
+mongoose.connect("mongodb+srv://ritesh:ritesh_123@cluster0.xrcit.mongodb.net/doctor?retryWrites=true&w=majority").then(() => console.log("mongodb connected"))
 
+dotenv.config({ path: "./.env" })
 app.use(cors())
 app.use(express.json())
 

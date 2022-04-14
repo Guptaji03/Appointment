@@ -2,11 +2,12 @@ import React, { useLayoutEffect, useState } from "react";
 import Clinic from "./Clinic";
 import axios from "axios";
 import style from "../Css/Home.module.css";
+import url from "../connection";
 const Home = () => {
   const [clinics, setClinics] = useState([]);
 
   useLayoutEffect(() => {
-    axios.get("/clinic").then((data) => setClinics(data.data));
+    axios.get(`${url}/clinic`).then((data) => setClinics(data.data));
   }, []);
   return (
     <div className={style.home_container}>
